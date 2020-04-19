@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1224px) { 
+#troisCases
+{
+
+	flex-direction:column;
+	align-items:center;
+
+}
+
+#blocExpert
+{
+
+	padding:35px 0px 0px 20px;
+
+}
+
+#blocIntermediaire
+{
+
+	padding:35px 0px 0px 20px;
+
+}
+
+#blocDebutant
+{
+
+	padding:35px 0px 0px 20px;
+
+}
+
+#presentation
+{
+	flex-direction:column;
+	margin-left:40%;
+	width:100%;
+
+}
+
+
+}
