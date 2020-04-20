@@ -370,6 +370,7 @@ nav
 	padding: 55px 55px 55px 55px;
 	width:33.33%;
 	height:300px;
+    cursor: pointer;
 }
 
 #blocIntermediaire
@@ -382,6 +383,7 @@ nav
 	padding: 55px 55px 55px 55px;
 	width:33.33%;
 	height:300px;
+    cursor: pointer;
 }
 
 
@@ -396,6 +398,7 @@ nav
 	padding: 55px 55px 55px 55px;
 	width:33.33%;
 	height:300px;
+    cursor: pointer;
 }
 
 #troisCases
@@ -901,4 +904,9 @@ hr {
 
 :invalid {
     box-shadow: 0 0 2px 1px red;
+}
+
+.correctionProbHaut
+{
+    margin-top:2%;
 }
