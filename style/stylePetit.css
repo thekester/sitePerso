@@ -7,6 +7,22 @@
 
 }
     
+    .paquetDe4
+{
+    display:flex;
+    flex-direction: column;
+    max-width:50%;
+    height:auto;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+    
+.paquetDe4 > img
+    {
+        margin-bottom:10%;
+    }
+    
 .colonnePetit
     {
         display: flex;
