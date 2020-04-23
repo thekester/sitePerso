@@ -9,6 +9,8 @@
     flex-direction: row;
     justify-content: space-around;
     margin:5%;
+    width:90%;
+    height:auto;
 }
 
 .row

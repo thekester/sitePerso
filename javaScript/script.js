@@ -3,7 +3,7 @@
 /* jslint white:true, browser:true, devel:true */
 
 
-
+//<i class="fas fa-minus-circle"></i>
 
 var blocExpert = document.getElementById('blocExpert');
 var newDivToProveExpert = document.createElement("div");
