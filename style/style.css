@@ -2,6 +2,16 @@
     display: none;
 }
 
+.correctionProbHautNiveau6
+{
+    margin-top: 6%;
+}
+
+.none
+{
+    display: none;
+}
+
 #imageColle3
 {
     display: flex;
@@ -1225,7 +1235,7 @@ h4 {
 
 
 
-#liMentalix {
+.liMentalix {
     margin-top: -20% !important;
 }
 

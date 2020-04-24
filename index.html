@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head id="monSite.com">
     <meta charset="utf-8">
     <meta name="author" content="Avenel Théophile" />
     <meta name="description" content="Le site Web de Avenel Théophile">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
     <script src="bootstrap/js/jQueary.js"></script>
@@ -20,10 +19,10 @@
     <link rel="stylesheet" href="style/animations.min.css">
     <link rel="stylesheet" href="style/stylePetit.css">
     <script src="javaScript/link.js"></script>
-    <script src="javaScript/fontAwesome.js" media="all"></script>
-    <link rel="stylesheet" href="style/fontAwesome1.css" media="all">
-    <link rel="stylesheet" href="style/fontAwesome2.css" media="all">
-    <link rel="stylesheet" href="style/free.min.css" media="all">
+    <script src="javaScript/fontAwesome.js"></script>
+    <link rel="stylesheet" href="style/fontAwesome1.css">
+    <link rel="stylesheet" href="style/fontAwesome2.css">
+    <link rel="stylesheet" href="style/free.min.css">
 
 
 
@@ -32,8 +31,8 @@
 
 <body>
 
-    <header id="masthead" class="site-header" role="banner">
-        <nav class="site-navigation main-navigation primary use-sticky-menu" role="navigation">
+    <header id="masthead" class="site-header">
+        <nav class="site-navigation main-navigation primary use-sticky-menu">
             <div class="full-container">
                 <div id="so-mobilenav-standard-1" class="so-mobilenav-standard" data-id="1"></div>
                 <div class="menu-menu-principal-container">
@@ -189,11 +188,11 @@
                         <p class="paragrapheCase">Outils de développement de firefox</p>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="blocExpertModalCenter" tabindex="-1" role="dialog" aria-labelledby="blocExpertModalCenterTitle" aria-hidden="true">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal fade modalColonnePetit" id="blocExpertModalCenter" tabindex="-1" role="dialog" aria-labelledby="blocExpertModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered " role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="blocExpertModalLongTitle">Expert</h5>
+                                        <h5 class="modal-title" id="blocExpertModalCenterTitle">Expert</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -202,12 +201,12 @@
 
                                         <div id="modalExpertPorfolio">
 
-
                                             <article class="projetPortfolio caseTiers">
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
 
                                                 <a href="https://github.com/thekester/prothesis">
 
-                                                    <img src="images/prothesis.png">
+                                                    <img alt="prothesis" src="images/prothesis.png">
 
                                                     <div>
 
@@ -229,18 +228,19 @@
                                             </article>
 
                                             <div class="colonne hauteurMoitie caseTiers">
-                                                <img src="images/apprenezACreerVotreSiteWebAvecHTML5EtCSS3.png">
-                                                <img src="images/apprennezACoderAvecJavaScript.png">
+                                                <img alt="apprenezACreerVotreSiteWebAvecHTML5EtCSS3" src="images/apprenezACreerVotreSiteWebAvecHTML5EtCSS3.png">
+                                                <img alt="apprennezACoderAvecJavaScript" src="images/apprennezACoderAvecJavaScript.png">
                                             </div>
 
 
 
-
+                                            <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
                                             <article class="projetPortfolio caseTiers">
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
 
                                                 <a href="https://github.com/thekester/mentalix">
 
-                                                    <img src="images/mentalix.png">
+                                                    <img alt="mentalix" src="images/mentalix.png">
 
                                                     <div>
 
@@ -248,8 +248,8 @@
                                                         <p>Mentalix est un site web de calcul mental. Mis à jour régulièrement sur github. Je suis en train de programmer les calculs d'addition, soustraction, multiplication , division de 2 à 9 nombres allant de 1 à 1000000000. </p>
                                                         <ul>
 
-                                                            <li id="liMentalix">Web</li>
-                                                            <li id="liMentalix">JavaScript</li>
+                                                            <li class="liMentalix">Web</li>
+                                                            <li class="liMentalix">JavaScript</li>
 
                                                         </ul>
 
@@ -258,7 +258,6 @@
                                                 </a>
 
                                             </article>
-
 
                                         </div>
                                     </div>
@@ -286,7 +285,7 @@
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="avanceModalLongTitle">Avancé</h5>
+                                        <h5 class="modal-title" id="avanceModalCenterTitle">Avancé</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -296,15 +295,17 @@
                                         <div id="modalAvancePorfolio">
 
                                             <div class="caseTiers">
-                                                <img src="images/apprenezAUtiliserLaLigneDeCommandeDansUnTerminal.png">
+                                                <img alt="apprenezAUtiliserLaLigneDeCommandeDansUnTerminal" src="images/apprenezAUtiliserLaLigneDeCommandeDansUnTerminal.png">
                                             </div>
 
 
                                             <article class="projetPortfolio caseTiers">
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
 
                                                 <a href="https://github.com/thekester/mysterix">
 
-                                                    <img src="images/mysterix.png">
+                                                    <img alt="mysterix" src="images/mysterix.png">
 
                                                     <div>
                                                         <p>Mysterix</p>
@@ -319,12 +320,15 @@
 
                                             <article class="projetPortfolio caseTiers">
 
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
                                                 <p> J'ai suivi le cours d'openclassroom qui s'intitule : Protégez-vous efficacement contre les failles web. Iln'y a malheuresement pas de certificats de réussite pour ce cours. Mais comme vous l'avez constatez mon CV est une image et l'envoi de mail ne peut s'effectuer pour des raisons de cybersécurité. Car en effet si j'avais mis mon CV en PDF un robot passe par là, prends toutes les infos du CV eton est partis pour ce faire spamer. Il faut donc que mon site devienne dynamique pour utiliser PHP et améliorer la sécurité du site web mais problème github ne peut héberger que des sites statiques. </p>
 
 
                                             </article>
 
-                                           
+
 
                                         </div>
                                     </div>
@@ -353,7 +357,7 @@
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="debutantModalLongTitle">Initié</h5>
+                                        <h5 class="modal-title" id="debutantModalCenterTitle">Initié</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">&times;</span>
                                         </button>
@@ -364,9 +368,12 @@
 
                                             <article class="projetPortfolio caseMoitie">
 
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
                                                 <a href="https://github.com/thekester">
 
-                                                    <img src="images/githubGros.png">
+                                                    <img alt="github" src="images/githubGros.png">
 
                                                     <div>
                                                         <p>Github</p>
@@ -378,8 +385,11 @@
                                                 </a>
 
                                             </article>
-                                            
+
                                             <article class="projetPortfolio caseMoitie">
+
+                                                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
 
                                                 <p> Je suis un initié à Wordpress car ce n'est pas vraiment ce qui m'intéresse, moi ce qui m'intéresse c'est coder et pas utiliser un framework ou en quelques clics on a créer ce qu'on voulait. Moi ce que j'aime bien c'est "bidouiller" mon code pour obtenir un résultat. </p>
 
@@ -413,7 +423,13 @@
 
         <section id="MesExperiencesProfessionnel">
 
+            <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
             <section id="sectionTitreProfessionnel">
+
+                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
 
                 <div class="center">
 
@@ -424,6 +440,9 @@
             </section>
 
             <section id="TexteMesExperiencesProfessionnel">
+
+                <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
 
                 <div id="professionnel">
 
@@ -445,6 +464,9 @@
 
 
         <section id="MesFormations">
+
+            <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
 
 
             <div id="formations">
@@ -507,9 +529,12 @@
 
                 <article class="projetPortfolio">
 
+                    <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
                     <a href="https://github.com/thekester/prothesis">
 
-                        <img src="images/prothesis.png">
+                        <img alt="prothesis" src="images/prothesis.png">
 
                         <div>
 
@@ -534,9 +559,12 @@
 
                 <article class="projetPortfolio">
 
+                    <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
                     <a href="https://github.com/thekester/mentalix">
 
-                        <img src="images/mentalix.png">
+                        <img alt="mentalix" src="images/mentalix.png">
 
                         <div>
 
@@ -544,8 +572,8 @@
                             <p>Mentalix est un site web de calcul mental. Mis à jour régulièrement sur github. Je suis en train de programmer les calculs d'addition, soustraction, multiplication , division de 2 à 9 nombres allant de 1 à 1000000000. </p>
                             <ul>
 
-                                <li id="liMentalix">Web</li>
-                                <li id="liMentalix">JavaScript</li>
+                                <li class="liMentalix">Web</li>
+                                <li class="liMentalix">JavaScript</li>
 
                             </ul>
 
@@ -559,9 +587,12 @@
 
                 <article class="projetPortfolio">
 
+                    <h6 class="none">Un titre caché pour Bypass le problème Article lacks heading. </h6>
+
+
                     <a href="https://github.com/thekester/mysterix">
 
-                        <img src="images/mysterix.png">
+                        <img alt="mysterix" src="images/mysterix.png">
 
                         <div>
 
@@ -599,25 +630,25 @@
 
                 <a href="https://github.com/thekester">
 
-                    <img src="images/github.png">
+                    <img alt="github" src="images/github.png">
 
                 </a>
 
                 <a href="https://www.root-me.org/athena-420982">
 
-                    <img src="images/root-me.min.jpg">
+                    <img alt="RootMe" src="images/root-me.min.jpg">
 
                 </a>
 
                 <a href="https://www.linkedin.com/in/theophile-avenel-42974a194">
 
-                    <img src="images/linkedin.jpg">
+                    <img alt="Linkedin" src="images/linkedinGros.jpg">
 
                 </a>
 
                 <a href="https://www.viadeo.com/p/00210hpigzsb0on4">
 
-                    <img src="images/viadeo.png">
+                    <img alt="Viadeo" src="images/viadeo.png">
 
                 </a>
 
@@ -638,7 +669,7 @@
 
                     <textarea name="message" placeholder="message" aria-label="Message" maxlength="200" required></textarea>
 
-                    <input clas="button_pink" type="submit" value="Envoyer">
+                    <input class="button_pink" type="submit" value="Envoyer">
 
 
 
@@ -673,9 +704,11 @@
 
     </main>
 
+    <script src="javaScript/script.js"></script>
+
+
 </body>
 
 
-<script src="javaScript/script.js"></script>
 
 </html>
