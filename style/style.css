@@ -7,6 +7,12 @@
     margin-top: 6%;
 }
 
+.centerDefil
+{
+    display: block;
+    align-self: center;
+}
+
 .none
 {
     display: none;
