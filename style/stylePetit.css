@@ -19,6 +19,8 @@
 .paquetDe4 > img
     {
         margin-bottom:10%;
+        width: 60%;
+        height: auto;
     }
     
 .colonnePetit
