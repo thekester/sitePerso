@@ -10,7 +10,7 @@ var P1 = 0;
 var Intro1 = true;
 var Boucle1 = false;
 // Texte1 peut être renseigné par une variable php
-var Texte1 = 'Je recherche des joueurs français pour jouer en ligne sur PVZ garden Warfare<\/a>';
+var Texte1 = 'Je recherche des joueurs français pour jouer sur PVZ garden Warfare ... Je recherche des joueurs français pour jouer sur Star Wars Battlefront 2 Édition PS2 <\/a>';
 // La séparation entre chaque texte
 Texte1 = Texte1 + '&nbsp;...&nbsp;';
 var Contenu1 = document.getElementById("contenu1");
