@@ -661,13 +661,15 @@
 
                 <h3>Envoyer moi un message(Ne va pas marcher pour des problèmes de cybersécurité)</h3>
 
-                <form name="contact" method="post">
+                <form name="contact" method="post" action="POST" data-netlify="true">
 
                     <input type="text" name="name" placeholder="Nom" aria-label="Nom" maxlength="51" required>
 
                     <input type="email" name="email" placeholder="Adresse électronique" aria-label="Adresse électronique" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="81" required>
 
                     <textarea name="message" placeholder="message" aria-label="Message" maxlength="200" required></textarea>
+                    
+                      <div data-netlify-recaptcha="true"></div>
 
                     <input class="button_pink" type="submit" value="Envoyer">
 

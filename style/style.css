@@ -2,6 +2,13 @@
     display: none;
 }
 
+
+
+.textCenter
+{
+    text-align: center;
+}
+
 .correctionProbHautNiveau6
 {
     margin-top: 6%;
