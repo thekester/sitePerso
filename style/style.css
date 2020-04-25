@@ -4,48 +4,40 @@
 
 
 
-.textCenter
-{
+.textCenter {
     text-align: center;
 }
 
-.correctionProbHautNiveau6
-{
+.correctionProbHautNiveau6 {
     margin-top: 6%;
 }
 
-.centerImg
-{
+.centerImg {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
 
-.centerDefil
-{
+.centerDefil {
     display: block;
     align-self: center;
 }
 
-.none
-{
+.none {
     display: none;
 }
 
-#imageColle3
-{
+#imageColle3 {
     display: flex;
     flex-direction: column;
 }
 
-.specialColle3
-{
-    width:auto;
+.specialColle3 {
+    width: auto;
     height: 100%;
 }
 
-#modalDebutantPorfolio
-{
+#modalDebutantPorfolio {
     width: 100%;
 }
 
@@ -53,8 +45,7 @@
     width: 30%;
 }
 
-.caseMoitie
-{
+.caseMoitie {
     width: 50%;
 }
 
@@ -1041,7 +1032,6 @@ h4 {
 
 #modalAvancePorfolio article a {
     text-decoration: none;
-    color: #000;
 }
 
 #modalAvancePorfolio article:hover {
