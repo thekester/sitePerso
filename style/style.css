@@ -326,7 +326,7 @@ main {
 
 #presentation #presentationGauche img {
 
-    width: 31%;
+    width: 50%;
     border-radius: 69px 69px 69px 69px;
     vertical-align: middle;
     height: auto;
@@ -335,7 +335,6 @@ main {
     margin: 4px 4px 4px 4px;
     animation-name: zoomIn;
     animation-duration: 1.25s;
-    margin-left: 30%;
 }
 
 #presentation #presentationDroite {
