@@ -1,0 +1,10 @@
+@media screen and (min-width: 1224px) and (max-width: 1700px) {
+    
+    #modalExpertPorfolio article
+    {
+        height:auto;
+        width:33%;
+        margin: 0;
+    }
+  
+}
