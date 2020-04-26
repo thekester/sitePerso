@@ -5,6 +5,27 @@
         flex-direction: column;
         text-align: center;
     }
+    
+    .colonne
+    {
+        height:auto;
+    }
+    
+    .hauteurMoitie
+    {
+        width: auto;
+    }
+    
+    .caseTiers
+    {
+        width:auto;
+    }
+    
+    #modalExpertPorfolio article
+    {
+        height: 20%;
+        width:auto;
+    }
 
     #presentation,
     #presentationDroite {
@@ -153,6 +174,8 @@
     #ulLienMenuPortable
     {
         list-style: none;
+        padding-right:  20px;
+        padding-left:   20px;
     }
     
     .liLienMenuPortable

@@ -2,9 +2,31 @@
     display: none;
 }
 
-#menuPortable
+#menuPortable {
+    display: none;
+}
+
+#contenu1 {
+    z-index: 1;
+    position: relative;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding: 5px
+}
+
+#defil1 {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    border: 1px solid #C0C0C0;
+    overflow: hidden;
+    background-color: lightgreen;
+}
+
+#presentationRootMe
 {
-    display:none;
+    margin-top: 4%;
 }
 
 
@@ -285,7 +307,7 @@ main {
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: 6em;
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 #presentationGauche {
@@ -490,6 +512,12 @@ nav {
     cursor: pointer;
 }
 
+#blocExpert:hover {
+    background: orange;
+    transition: ease;
+    transition-duration: 2s;
+}
+
 #blocIntermediaire {
     border-style: solid;
     border-width: 1px 1px 1px 1px;
@@ -502,6 +530,11 @@ nav {
     cursor: pointer;
 }
 
+#blocIntermediaire:hover {
+    background: orange;
+    transition: ease;
+    transition-duration: 2s;
+}
 
 
 #blocDebutant {
@@ -514,6 +547,12 @@ nav {
     width: 33.33%;
     height: 300px;
     cursor: pointer;
+}
+
+#blocDebutant:hover {
+    background: orange;
+    transition: ease;
+    transition-duration: 2s;
 }
 
 #troisCases {
