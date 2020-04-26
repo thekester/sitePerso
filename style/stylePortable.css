@@ -180,6 +180,8 @@
         margin: 0;
     }
     
+
+    
     .row-fluid
     {
         display: flex;
@@ -216,7 +218,7 @@
     
     #defilant
     {
-        margin-top:8.6%;
+        margin-top:25%;
     }
     
     .textCenter
