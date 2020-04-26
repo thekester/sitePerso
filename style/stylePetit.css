@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1224px) {
+@media only screen and (min-width: 420px) and (max-width: 1224px) {
     #troisCases {
         flex-direction: column;
         align-items: center;
@@ -64,6 +64,16 @@
         margin-left: 40%;
         width: 100%;
 
+    }
+    
+    #titre
+    {
+        margin-top: 3em;
+    }
+    
+    .titreCase
+    {
+        font-size: 1.7rem;
     }
 
 

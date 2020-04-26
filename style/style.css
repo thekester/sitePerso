@@ -2,6 +2,11 @@
     display: none;
 }
 
+#menuPortable
+{
+    display:none;
+}
+
 
 
 .textCenter {
@@ -266,7 +271,7 @@ main {
 
 #titre {
     color: #000000;
-    font-size: 65px;
+    font-size: 3rem;
     font-weight: 600;
     hyphens: manual;
     text-align: center;
@@ -280,6 +285,7 @@ main {
     flex-direction: row;
     flex-wrap: nowrap;
     margin-left: 6em;
+    font-size:1.2rem;
 }
 
 #presentationGauche {
