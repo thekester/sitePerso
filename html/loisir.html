@@ -17,7 +17,9 @@
     <title>Avenel Theophile</title>
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/animations.min.css">
+    <link rel="stylesheet" href="../style/styleCSS1700px.css">
     <link rel="stylesheet" href="../style/stylePetit.css">
+    <link rel="stylesheet" href="../style/stylePortable.css">
     <script src="../javaScript/link.js"></script>
     <script src="../javaScript/fontAwesome.js"></script>
     <link rel="stylesheet" href="../style/fontAwesome1.css">
@@ -31,7 +33,7 @@
 
 
     <header id="masthead" class="site-header">
-        <nav class="site-navigation main-navigation primary use-sticky-menu">
+        <nav id="navOrdinateur" class="site-navigation main-navigation primary use-sticky-menu">
             <div class="full-container">
                 <div id="so-mobilenav-standard-1" class="so-mobilenav-standard" data-id="1"></div>
                 <div class="menu-menu-principal-container">
@@ -92,9 +94,74 @@
                 </div>
             </div>
         </nav>
+
+        <nav id="menuPortable">
+
+            <div id="menuCentrePortable">
+                <img id="menuBurger" alt="menuBurger" src="../images/burgerPourFondNoir.png" data-toggle="modal" data-target="#menuBurgerFaisantAppelAModal">
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade modalColonnePetit" id="menuBurgerFaisantAppelAModal" tabindex="-1" role="dialog" aria-labelledby="menuBurgerFaisantAppelAModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered " role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="menuBurgerFaisantAppelAModalTitle">Menu</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+
+                            <ul id="ulLienMenuPortable">
+
+                                <li class="liLienMenuPortable">
+                                    <a href="../index.html">ACCUEIL</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="loisir.html">ACCUEILLOISIR</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="pingPong.html">PINGPONG</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="rootMe.html">ROOTME</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="certificats.html">CERTIFICATS</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="kaliLinux.html">KALI LINUX</a>
+                                </li>
+
+                                <li class="liLienMenuPortable">
+                                    <a href="autre.html">AUTRES</a>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+                        <div class="modal-footer">
+
+
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
     </header>
 
-    <div class="centerDefil">
+
+
+    <div id="defilant" class="centerDefil">
         <br><br>
 
 
@@ -105,16 +172,16 @@
         </div>
     </div>
 
-    <main  class="betterToRead">
+    <main class="betterToRead">
 
         <h3>Bienvenue</h3>
 
-        <p>Vous êtes dans la rubrique de Avenel Théophile. Vous pouvez naviguer dans le menu de navigation en haut de la page pour avoir plus d'informations sur mes loisirs. Le texte qui défile en haut est une annonce. Si vous souhaitez répondre à cetet annonce envoyer moi un mail.</p>
+        <p class="textCenter">Vous êtes dans la rubrique de Avenel Théophile. Vous pouvez naviguer dans le menu de navigation en haut de la page pour avoir plus d'informations sur mes loisirs. Le texte qui défile en haut est une annonce. Si vous souhaitez répondre à cette annonce envoyer moi un mail.</p>
 
 
     </main>
-    
-            <script src="../javaScript/defil.js"> </script>
+
+    <script src="../javaScript/defil.js"> </script>
 
 
 </body>

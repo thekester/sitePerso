@@ -166,6 +166,62 @@
     {
         margin-left: auto;
         margin-right: auto;
+        max-width: none;
+    }
+    
+    .correctionProbHaut
+    {
+        font-size: 2rem;
+        margin-top:30%;
+    }
+    
+    .betterToRead
+    {
+        margin: 0;
+    }
+    
+    .row-fluid
+    {
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .map , .salle
+    
+    {
+        width:100%;
+    }
+    
+    .paquetDe4
+    {
+        flex-direction: column;
+    }
+    
+    .modal-content
+    {
+        width:auto;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    #imgKalilinux
+    {
+        width: 60%;
+    }
+    
+    .flecheUNPeuMoinsADroite
+    {
+        margin-right: 4%;
+    }
+    
+    #defilant
+    {
+        margin-top:8.6%;
+    }
+    
+    .textCenter
+    {
+        text-align: center;
     }
 
 
