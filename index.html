@@ -728,7 +728,11 @@
                 <h3>Envoyer moi un message</h3>
 
 
-                <form name="contact" method="post" action="POST" data-netlify="true">
+                <form name="contact" method="post" action="POST" netlify-honeypot="bot-field" data-netlify="true">
+
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                    </p>
 
                     <input type="hidden" name="form-name" value="contact">
 

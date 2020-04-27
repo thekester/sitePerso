@@ -2,6 +2,11 @@
     display: none;
 }
 
+.hidden
+{
+    display:none;
+}
+
 #menuPortable {
     display: none;
 }
