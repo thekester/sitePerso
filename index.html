@@ -113,37 +113,37 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            
+
                             <ul id="ulLienMenuPortable">
-                            
+
                                 <li class="liLienMenuPortable">
                                     <a href="#">ACCUEIL</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="#separator1">COMPÉTENCES</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="#separatorBetweenSkillAndExpPro">EXPÉRIENCES</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="#separatorBetweenExpProAndForm">FORMATIONS</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="#separatorBetweenFormAndPortfolio">PORTFOLIO</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="#separatorBetweenPortfolioAndContacts">CONTACTS</a>
                                 </li>
-                                
+
                                 <li class="liLienMenuPortable">
                                     <a href="html/loisir.html">LOISIRS</a>
                                 </li>
-                            
+
                             </ul>
 
 
@@ -727,7 +727,12 @@
 
                 <h3>Envoyer moi un message</h3>
 
+
                 <form name="contact" method="post" action="POST" data-netlify="true">
+
+                    <input type="hidden" name="form-name" value="contact">
+
+                    <input type="hidden" name="bot-field">
 
                     <input type="text" name="name" placeholder="Nom" aria-label="Nom" maxlength="51" required>
 
