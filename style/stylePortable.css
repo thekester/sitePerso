@@ -162,6 +162,8 @@
         width: 16%;
         height: auto;
         cursor: pointer;
+        top:0;
+        position:relative;
     }
     
     footer div
