@@ -2,9 +2,69 @@
     display: none;
 }
 
+#buttonCV
+{
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #03a9f4, #f441a5 , #ffeb3b , #03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+
+}
+
+#buttonCV:hover{
+    animation: animate 8s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+
+#buttonCV:before{
+    /* https://www.youtube.com/watch?v=pdH5X2mXzPk */
+    content: '';
+    position: absolute;
+    top:-5px;
+    left:-5px;
+    right:-5px;
+    bottom:-5px;
+    z-index:-1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5 , #ffeb3b , #03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+}
+
+#buttonCV:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+
+}
+
+
+
+
 .hidden
 {
-    display:none;
+    display: none;
 }
 
 #menuPortable {
@@ -401,34 +461,9 @@ p {
 }
 
 #CV {
-    line-height: 1.6em;
-    color: #666666;
-    word-wrap: break-word;
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-    font-family: inherit;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    hyphens: manual;
+
     margin: 0% 39% 0% 45%;
-    outline: 0;
-    padding: 12px 12px 12px 12px;
-    border-radius: 5px 5px 5px 5px;
-    background-color: #000000;
     min-height: 1px;
-    display: webkit box;
-    display: webkit flex;
-    display: ms flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    font-weight: 600;
-    justify-content: center;
-    font-weight: bold;
-    width: 169.6px;
-    height: 44.8px;
-    font-size: 13px;
 }
 
 #MesCompetences {
