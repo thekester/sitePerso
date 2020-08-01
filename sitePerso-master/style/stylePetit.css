@@ -1,0 +1,116 @@
+@media only screen and (min-width: 420px) and (max-width: 1224px) {
+    #troisCases {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caseTiers {
+        width: auto;
+    }
+
+    #defilant {
+        margin-top: 24%;
+    }
+    
+    .correctionProbHaut
+    {
+        margin-top:20%;
+    }
+
+
+
+    .miseEnOrdreResponsifModal {}
+
+    .colonne {
+        height: auto;
+    }
+
+    .hauteurMoitie {
+        height: auto;
+    }
+
+
+
+    .paquetDe4 {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .paquetDe4 > img {
+        margin-bottom: 10%;
+        width: 100%;
+        height: auto;
+    }
+
+    .colonnePetit {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #blocExpert {
+
+        padding: 35px 0px 0px 20px;
+
+    }
+
+    #blocIntermediaire {
+
+        padding: 35px 0px 0px 20px;
+
+    }
+
+    #blocDebutant {
+
+        padding: 35px 0px 0px 20px;
+
+    }
+
+    #presentation {
+        flex-direction: column;
+        margin-left: 40%;
+        width: 100%;
+
+    }
+
+    #presentationRootMe {
+        margin-top: 25%;
+    }
+
+    .betterToRead {
+        margin: 0;
+    }
+
+    .flecheUNPeuMoinsADroite {
+        margin-right: 4%;
+    }
+        #imgKalilinux
+    {
+        width: 60%;
+    }
+
+    #titre {
+        margin-top: 3em;
+    }
+
+    .titreCase {
+        font-size: 1.7rem;
+    }
+
+
+    .row-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map,
+    .salle {
+        width: 100%;
+    }
+
+
+}

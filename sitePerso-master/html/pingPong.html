@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr" class="betterToRead">
+
+<head id="monSite.com">
+    <link rel="stylesheet" href="../style/free.min.css">
+    <meta charset="utf-8">
+    <meta name="author" content="Avenel Théophile" />
+    <meta name="description" content="Le site Web de Avenel Théophile">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" />
+    <script src="../bootstrap/js/jQueary.js"></script>
+    <script src="../javaScript/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link href="../bootstrap/css/flag-icon.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Avenel Theophile</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/animations.min.css">
+    <link rel="stylesheet" href="../style/styleCSS1700px.css">
+    <link rel="stylesheet" href="../style/stylePetit.css">
+    <link rel="stylesheet" href="../style/stylePortable.css">
+    <script src="../javaScript/fontAwesome.js"></script>
+    <link rel="stylesheet" href="../style/fontAwesome1.css">
+    <link rel="stylesheet" href="../style/fontAwesome2.css">
+    <link rel="stylesheet" href="../style/free.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="">
+</head>
+
+<body>
+
+    <header id="masthead" class="site-header">
+        <nav id="navOrdinateur" class="site-navigation main-navigation primary use-sticky-menu">
+            <div class="full-container">
+                <div id="so-mobilenav-standard-1" class="so-mobilenav-standard" data-id="1"></div>
+                <div class="menu-menu-principal-container">
+                    <ul id="menu-menu-principal" class="menu">
+                        <li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-10">
+                            <a href="../index.html" aria-current="page">
+                                <span class="icon"> </span>
+                                ACCUEIL
+                            </a>
+
+                        </li>
+
+                        <li id="menu-item-241" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-232">
+                            <a href="loisir.html">
+                                <span class="icon"> </span>
+                                ACCUEILLOISIR
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <nav id="menuPortable">
+
+        <div id="menuCentrePortable">
+            <img id="menuBurger" alt="menuBurger" src="../images/burgerPourFondNoir.png" data-toggle="modal" data-target="#menuBurgerFaisantAppelAModal">
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade modalColonnePetit" id="menuBurgerFaisantAppelAModal" tabindex="-1" role="dialog" aria-labelledby="menuBurgerFaisantAppelAModalTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered " role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="menuBurgerFaisantAppelAModalTitle">Menu</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <ul id="ulLienMenuPortable">
+
+                            <li class="liLienMenuPortable">
+                                <a href="../index.html">ACCUEIL</a>
+                            </li>
+
+                            <li class="liLienMenuPortable">
+                                <a href="loisir.html">ACCUEILLOISIR</a>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="modal-footer">
+
+
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    </header>
+
+    <main>
+
+        <h1 class="correctionProbHaut">Le ping pong, l'un de mes sports préféré</h1>
+
+
+
+        <div>
+            <h2 class="h2SouligneEnVert">
+                <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                Là où je m'entraine
+            </h2>
+        </div>
+
+        <div class="column">
+
+            <div class="row-fluid">
+
+                <div class="dessusCarte">
+
+                    <p>Site de Lannion</p>
+                    <p>Maison des sports de Park Nevez - Salle Paul Borreil
+                        <br>
+                        Rue de la madeleine
+                        <br>
+                        22300 LANNION</p>
+                </div>
+
+            </div>
+
+
+            <div class="row2">
+                <div class="row-fluid">
+
+                    <div class="map">
+
+                        <div id="maCarte" class="map2 osmodul leaflet-container leaflet-fade-anim ">
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="salle">
+
+                        <img class="imgSalle" alt="Salle d'entrainement de Lannion" src="../images/ttlpl_salle_lannion.jpg">
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <p class="pMoreEasyToRead">C'est au collège que j'ai découvert ce sport. C'était un sport simple ou on pouvait s'amuser sans être super bon, fallait juste renvoyer une balle. </p>
+
+        <p class="pMoreEasyToRead">J'ai ensuite découvert un peu plus ce sport lors des entrainements et je l'ai apprécié au point de devenir licencié au club du TTLPL et de m'entrainer au moins 3 heures par semaine (Quand j'ai pas trop de devoirs)</p>
+
+        <p class="pMoreEasyToRead">Je m'entraine aussi chez moi car j'ai la chance d'avoir une table de ping pong et encore mieux quelqu'un avec qui jouer au Ping. Le problème c'est que comme on joue dehors on est soumis aux aléas climatiques (il pleut c'est pas la peine, il y a trop de vent les trajectoires que suivent les balles sont étranges, ... mais quand les conditions sont réunis on peut s'amuser!!!!)</p>
+
+        <h2> Le vocabulaire du ping </h2>
+
+        <ul>
+
+            <li> Carrotte: Quand la balle touche le bord blanc de la table </li>
+            <li> Faire des balles : Faire des échanges </li>
+            <li> Tranche : Quand la balle touche la tranche de la raquette </li>
+            <li> Let : Au service si la balle touche le filet et retombe en camp adverse, elle est dite let. On peut alors refaire un service. </li>
+
+        </ul>
+
+
+
+
+
+    </main>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <script>
+        //On initialise la carte
+        var carte = L.map('maCarte').setView([48.73106, -3.44227], 12);
+
+        //On charge les tuiles
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoibWFwcHltYWFuaWFjIiwiYSI6ImNrOTlqdTB4ejAxbDUzbm55dGcxZjczZzQifQ.GF8sxOZ51ChMAUS_Lb_rTQ'
+        }).addTo(carte);
+
+        var marker = L.marker([48.73106, -3.44227]).addTo(carte);
+        marker.bindPopup("<a href=\"https://ttlpl.com\"><b>TTLPL</b></a><br>Là où je m'entraine.").openPopup();
+
+    </script>
+</body>
+
+
+
+</html>

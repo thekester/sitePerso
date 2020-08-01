@@ -5,6 +5,10 @@
         flex-direction: column;
         text-align: center;
     }
+
+    #buttonCV{
+    animation: animate 8s linear infinite;
+}
     
     .colonne
     {

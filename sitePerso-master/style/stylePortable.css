@@ -1,0 +1,257 @@
+@media screen and (min-width: 0px) and (max-width: 420px) {
+
+    #presentation {
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .colonne
+    {
+        height:auto;
+    }
+    
+    .hauteurMoitie
+    {
+        width: auto;
+    }
+    
+    .caseTiers
+    {
+        width:auto;
+    }
+    
+    #modalExpertPorfolio article
+    {
+        height: 20%;
+        width:auto;
+    }
+
+    #presentation,
+    #presentationDroite {
+        width: 100% !important;
+        font-size: 1.2rem !important;
+        text-align: center !important;
+    }
+
+    #presentationGauche {
+        width: auto;
+        height: auto;
+    }
+
+    #CV {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15%;
+    }
+
+    #navOrdinateur {
+        display: none;
+    }
+
+    #menuPortable {
+        display: flex;
+        height:12%;
+        background: #222;
+    }
+
+    #white {
+        color: white;
+        text-align: center;
+    }
+
+    #menuCentrePortable {
+        width: 35%;
+    }
+
+    #titreProfessionnel {
+        font-size: 2.2rem;
+    }
+
+    #TexteMesExperiencesProfessionnel {
+        padding: 0;
+        text-align: center;
+    }
+
+    #troisCases {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    #blocExpert {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    #blocIntermediaire {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    #blocDebutant {
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    #titreCompetence {
+        font-size: 2.2rem;
+    }
+
+    #titreFormation {
+        font-size: 2.2rem;
+    }
+
+    .texteTitreFormation {
+        font-size: 1.2rem;
+    }
+
+    .espace100 {
+        width: auto;
+    }
+
+    #menuCentrePortable {
+        background: #222;
+        color: #fff;
+        margin-top: 8%;
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+
+    #menuCentrePortable .title {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 50px;
+        padding: 0 20px;
+        text-transform: uppercase;
+    }
+
+    #menuCentrePortable .burger {
+        appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        color: inherit;
+        cursor: pointer;
+        font-family: 'Material Icons';
+        font-size: 30px;
+        line-height: 50px;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+        position: absolute;
+        text-align: center;
+        top: 0;
+        right: 10px;
+        width: 50px;
+    }
+
+    #menuCentrePortable .burger:before {
+        content: 'menu';
+    }
+
+    #menuCentrePortable .burger:checked:before {
+        content: 'close';
+    }
+    
+    #menuBurger
+    
+    {
+        width: 16%;
+        height: auto;
+        cursor: pointer;
+        top:0;
+        position:relative;
+    }
+    
+    footer div
+    {
+        margin: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #ulLienMenuPortable
+    {
+        list-style: none;
+        padding-right:  20px;
+        padding-left:   20px;
+    }
+    
+    .liLienMenuPortable
+    {
+        background: black;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    
+    .modal-dialog
+    {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: none;
+    }
+    
+    .correctionProbHaut
+    {
+        font-size: 2rem;
+        margin-top:30%;
+    }
+    
+    .betterToRead
+    {
+        margin: 0;
+    }
+    
+
+    
+    .row-fluid
+    {
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .map , .salle
+    
+    {
+        width:100%;
+    }
+    
+    .paquetDe4
+    {
+        flex-direction: column;
+    }
+    
+    .modal-content
+    {
+        width:auto;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    
+    #imgKalilinux
+    {
+        width: 60%;
+    }
+    
+    .flecheUNPeuMoinsADroite
+    {
+        margin-right: 4%;
+    }
+    
+    #defilant
+    {
+        margin-top:25%;
+    }
+    
+    .textCenter
+    {
+        text-align: center;
+    }
+
+
+
+}
