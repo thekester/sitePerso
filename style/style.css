@@ -78,7 +78,6 @@
     position: relative;
     white-space: nowrap;
     display: inline;
-    float: left;
     padding: 5px
 }
 
@@ -381,12 +380,7 @@ main {
     width: 46.66%;
 }
 
-#presentationDroite {}
 
-.zoom {
-    /*width: 320px;
-	height: 240px;*/
-}
 
 .image {
     width: 100%;
@@ -698,19 +692,6 @@ nav {
     animation-name: fadeIn;
     animation-duration: 1.25s;
     margin-bottom: 20px;
-}
-
-#titrePortfolio {
-    /*color:#FFFFFF;
-	font-size:65px;
-	font-weight:600;
-	font-family: "Roboto", Sans-serif;
-	text-align:center;
-	animation-name:fadeIn;
-	animation-duration:1.25s;
-	margin-bottom:20px;*/
-
-
 }
 
 #MonPortfolio h2 {
@@ -1500,7 +1481,6 @@ hr {
     overflow: hidden;
     touch-action: none;
     text-align: center;
-    tabindex=0;
 }
 
 
