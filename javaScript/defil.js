@@ -23,11 +23,10 @@ var zero = 0;
 
 function Defile1() {
     "use strict";
-
     while (LargC <= LargD) {
         Texte1 += Texte1;
         Contenu1.innerHTML += Texte1;
-        LargC = Contenu1.clientWidth;
+        LargC = Contenu1.innerHTML.length;
     }
     if (P1 === 0) {
         Contenu1.innerHTML += Texte1;
