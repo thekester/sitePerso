@@ -1,3 +1,4 @@
+
 .jeSuisPasLa {
     display: none;
 }
@@ -9,7 +10,7 @@
     line-height: 60px;
     color: #fff;
     font-size: 24px;
-    /*text-transform: uppercase;*/
+
     text-decoration: none;
     font-family: sans-serif;
     box-sizing: border-box;
@@ -40,8 +41,9 @@
 
 #buttonCV:before{
     /* https://www.youtube.com/watch?v=pdH5X2mXzPk */
+    
     content: '';
-    position: absolute;
+  /*  position: absolute;  */
     top:-5px;
     left:-5px;
     right:-5px;
@@ -51,6 +53,7 @@
     background-size: 400%;
     border-radius: 40px;
     filter: blur(20px);
+    
 }
 
 #buttonCV:hover:before
@@ -427,6 +430,7 @@ main {
 }
 
 #presentation #presentationDroite {
+    
     width: 42.732%;
     font-size: 22px;
     font-weight: normal;
@@ -443,6 +447,7 @@ main {
     -o-transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
     transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, -webkit-border-radius .3s, -webkit-box-shadow .3s;
+    
 }
 
 b,
@@ -458,9 +463,9 @@ p {
 
 #CV {
 
-    margin: 0% 39% 0% 45%;
     min-height: 1px;
     width:100%;
+    text-align: center;
 }
 
 #MesCompetences {
@@ -648,20 +653,7 @@ nav {
 }
 
 #MonPortfolio {
-    /*background-color: #303D66;
-	width:100%;
-	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-	padding: 100px 0px 100px 0px;
-	position:relative;
-	box-sizing: border-box;
-	display:flex;
-	font-family:inherit;
-	font-size:100%;
-	font-style:inherit;
-	font-weight:inherit;
-	hyphens:manual;
-	word-wrap:break-word;
-	color:white;*/
+
 
     background-color: #303D66;
     min-height: calc(100vh - 50px);
@@ -815,17 +807,7 @@ h4 {
 
 
 #portfolio {
-    /*align-content:center;
-	align-items:center;
-	display:flex;
-	flex-wrap:wrap;
-	margin-right:auto;
-	margin-left:auto;
-	position:relative;
-	box-sizing:border-box;
-	width:100%;
-    justify-content: center;
-    z-index: 3;*/
+
 
     display: flex;
     justify-content: center;
@@ -841,7 +823,7 @@ h4 {
     width: 300px;
     overflow: hidden;
     border: 1px solid #ccc;
-    /*box-shadow:5px 5px 5px #ccc;*/
+
     text-align: justify;
     margin: 20px;
     z-index: 3;
@@ -916,7 +898,7 @@ h4 {
     padding: 0;
     list-style: none;
     margin-top: 20px;
-    /*bottom:20px;*/
+
 }
 
 
@@ -936,17 +918,7 @@ h4 {
 
 
 #modalExpertPorfolio {
-    /*align-content:center;
-	align-items:center;
-	display:flex;
-	flex-wrap:wrap;
-	margin-right:auto;
-	margin-left:auto;
-	position:relative;
-	box-sizing:border-box;
-	width:100%;
-    justify-content: center;
-    z-index: 3;*/
+
 
     display: flex;
     justify-content: center;
@@ -964,7 +936,7 @@ h4 {
     width: 300px;
     overflow: hidden;
     border: 1px solid #ccc;
-    /*box-shadow:5px 5px 5px #ccc;*/
+
     text-align: justify;
     margin: 20px;
     z-index: 3;
@@ -1039,7 +1011,7 @@ h4 {
     padding: 0;
     list-style: none;
     margin-top: 20px;
-    /*bottom:20px;*/
+
 }
 
 
@@ -1061,17 +1033,7 @@ h4 {
 
 
 #modalAvancePorfolio {
-    /*align-content:center;
-	align-items:center;
-	display:flex;
-	flex-wrap:wrap;
-	margin-right:auto;
-	margin-left:auto;
-	position:relative;
-	box-sizing:border-box;
-	width:100%;
-    justify-content: center;
-    z-index: 3;*/
+
 
     display: flex;
     justify-content: center;
@@ -1089,7 +1051,7 @@ h4 {
     width: 300px;
     overflow: hidden;
     border: 1px solid #ccc;
-    /*box-shadow:5px 5px 5px #ccc;*/
+
     text-align: justify;
     margin: 20px;
     z-index: 3;
@@ -1163,7 +1125,7 @@ h4 {
     padding: 0;
     list-style: none;
     margin-top: 20px;
-    /*bottom:20px;*/
+
 }
 
 
@@ -1182,27 +1144,8 @@ h4 {
 
 
 
-
-
-
-
-
-
-
-
-
 #modalDebutantPorfolio {
-    /*align-content:center;
-	align-items:center;
-	display:flex;
-	flex-wrap:wrap;
-	margin-right:auto;
-	margin-left:auto;
-	position:relative;
-	box-sizing:border-box;
-	width:100%;
-    justify-content: center;
-    z-index: 3;*/
+
 
     display: flex;
     justify-content: center;
@@ -1220,7 +1163,7 @@ h4 {
     width: 300px;
     overflow: hidden;
     border: 1px solid #ccc;
-    /*box-shadow:5px 5px 5px #ccc;*/
+
     text-align: justify;
     margin: 20px;
     z-index: 3;
@@ -1295,7 +1238,7 @@ h4 {
     padding: 0;
     list-style: none;
     margin-top: 20px;
-    /*bottom:20px;*/
+
 }
 
 
@@ -1530,3 +1473,5 @@ hr {
     color: #000;
     border-bottom: 2px solid #86b827;
 }
+
+
